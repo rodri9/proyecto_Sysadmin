@@ -6,7 +6,7 @@ Type=simple
 Restart=always
 RestartSec=1
 User=root
-ExecStart=/bin/respaldo.sh
+ExecStart=/bin/bash /bin/respaldo.sh
 
 [Install]
 WantedBy=multi-user.target
